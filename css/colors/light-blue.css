@@ -1,0 +1,66 @@
+/*
+*light-blue : #33b3d3
+*/
+
+::selection{
+  background: #33b3d3;
+  color: #fff;
+}
+
+::-moz-selection {
+  background: #33b3d3;
+  color: #fff;
+}
+
+.spinner-wrapper,
+.header,
+.navbar,
+.subscribe,
+.questions .card .card-header,
+.btn-primary,
+.bg-primary, 
+.card-middle,
+.page-header .btn-outline-primary:hover,
+.nav-pills .nav-item .nav-link.active,
+.scroll-indicator.go-top:before,
+.scroll-indicator:before, 
+.scroll-indicator:after, 
+.dropdown-menu>li>a:focus, 
+.dropdown-menu>li>a:hover{
+    background-color:#33b3d3 !important;
+}
+
+.card.bg-primary, .card .card-header-primary, .card.card-rotate.bg-primary .back,
+.card.card-rotate.bg-primary .front {
+    background: linear-gradient(60deg,#33b3d3,#33b3d3);
+}
+
+.home-fullscreen::after{
+    background-color: rgba(51, 179, 211, 0.81);
+}
+.btn,
+.contact .contact-info,
+.inner-box.active{
+    -webkit-box-shadow: 0px 0px 60px 0px rgba(51, 179, 211, 0.7);
+    -moz-box-shadow: 0px 0px 60px 0px rgba(51, 179, 211, 0.7);
+    box-shadow: 0px 0px 60px 0px rgba(51, 179, 211, 0.7);
+}
+
+.btn-home,
+#back2Top,
+.icon.icon-primary,
+.count a,
+.team .footer .btn,
+.copyright .fa-heart,
+.social a,
+.fa{
+    color: #33b3d3 !important ;
+}
+
+.form-control:focus{
+    border-color:#33b3d3 !important;
+}
+
+.form-control, .is-focused .form-control {
+    background-image: linear-gradient(0deg,#33b3d3 2px,rgba(156,39,176,0) 0),linear-gradient(0deg,#d2d2d2 1px,hsla(0,0%,82%,0) 0);
+}
